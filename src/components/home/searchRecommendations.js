@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { Typography, Container, Grid } from '@material-ui/core';
 import CardComponent from './../uiComponents/cardComponent';
 import { useHistory } from 'react-router-dom';
-import categoryImg from '../../illustrations/categoryImg.svg';
 import { getData } from '../../services/dataService';
 import Loader from 'react-loader';
 

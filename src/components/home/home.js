@@ -3,7 +3,6 @@ import SearchBar from './searchBar';
 import SearchModes from './searchModes';
 import SearchRecommendations from './searchRecommendations';
 import SearchCategories from './searchCategories';
-import Footer from '../uiComponents/footer';
 
 // Material components
 import { Typography, Container, Grid } from '@material-ui/core';
@@ -17,7 +16,7 @@ const commonCategories = ['Pre School', 'Kindergarden-Class 5', 'Primary School 
 const useStyles = makeStyles(theme => ({
   brandHeading: {
     color: color,
-    fontWeight: 500
+    fontWeight: 600
   },
   tagLine: {
     fontWeight: 600,
